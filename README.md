@@ -1,0 +1,10 @@
+[READ ME.txt](https://github.com/user-attachments/files/34800494/READ.ME.txt)
+Install on the MPC Live III
+1. Drag the folder "VST2 Plugins" (this exact folder, as it is) to the ROOT of your USB stick or SD card.
+   If the drive already has a "VST2 Plugins" folder, copy the two "KRRSRR - VST - ..." folders into it instead.
+2. MPC: Preferences > Info must show MPC OS 3.10.1 or later.
+3. MPC: Preferences > Enhancements (Beta) > turn on "Enable Enhancements" and "External Plugin Support".
+4. Restart the MPC with the drive inserted.
+5. Panacea (instrument): create a plugin program on a track > External Plugins > KRRSRR > Panacea.
+   Bomb (effect): open an insert slot > External Plugins > KRRSRR > Bomb.
+Check the drive from the Mac first:  python3 check_drive.py "/Volumes/<drive name>"
