@@ -1,0 +1,17 @@
+{
+  "name": "Bomb",
+  "manufacturer": "KRRSRR",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "Kl0Q",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Effect",
+  "file32": "VST/bomb-arm32.so",
+  "file64": "VST/bomb-arm64.so",
+  "description": "Bomb: all-in-one drum processor. Punch, Saturate, Sub, Air, Clip and Comp in a reorderable zero-latency chain with one Bomb macro.",
+  "author": "KRRSRR",
+  "url": "",
+  "license": "MIT"
+}
